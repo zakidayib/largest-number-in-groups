@@ -1,15 +1,14 @@
-## Pluralize
+## Largest number in groups
 
 ##### Your Task 📚:
 
-Create a function called `pluralize` that passes a list of words in the singular form, return a set of those words in the plural form if they appear more than once in the list.
-Note: just add 's' to the end of the word
+Create a called `findLargestNumbers` function that takes an array of arrays with numbers. Return a new (single) array with the largest numbers of each.
 
 ##### Examples 😃:
 
 ```
-pluralize(["cat","dog","cat","mouse"]) ➞ ["cats","dog","mouse"]
-pluralize(["car", "car", "car"]) ➞ ["cars"]
+findLargestNumbers([[7, 3, 8, 11], [54, 12, 43, 77], [16, 11, 8]]) ➞ [11, 77, 16]
+findLargestNumbers([[22, 55, 12], [45, 66, 95], [22, 5, 11]]) ➞ [55, 95, 22]
 ```
 
 Good Luck 😀
