@@ -1,15 +1,15 @@
-## Zero and Ones
+## Pluralize
 
 ##### Your Task 📚:
 
-Create a function called `ZeroAndOne` that converts 'Zero' and 'One' to 1s and 0s. If the arguement is not equal to
-'Zero' or 'One' (case sensative) ignore it.
+Create a function called `pluralize` that passes a list of words in the singular form, return a set of those words in the plural form if they appear more than once in the list.
+Note: just add 's' to the end of the word
 
 ##### Examples 😃:
 
 ```
-sumTwoSmallestNums(["one","Zero","Zero","One"]) ➞ "001"
-sumTwoSmallestNums(["Zero", "ONE", "one", "Zero"]) ➞ "00"
+sumTwoSmallestNums(["cat","dog","cat","mouse"]) ➞ ["cats","dog","mouse"]
+sumTwoSmallestNums(["car", "car", "car"]) ➞ ["cars"]
 ```
 
 Good Luck 😀
