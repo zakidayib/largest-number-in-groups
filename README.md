@@ -8,8 +8,8 @@ Note: just add 's' to the end of the word
 ##### Examples 😃:
 
 ```
-sumTwoSmallestNums(["cat","dog","cat","mouse"]) ➞ ["cats","dog","mouse"]
-sumTwoSmallestNums(["car", "car", "car"]) ➞ ["cars"]
+pluralize(["cat","dog","cat","mouse"]) ➞ ["cats","dog","mouse"]
+pluralize(["car", "car", "car"]) ➞ ["cars"]
 ```
 
 Good Luck 😀
